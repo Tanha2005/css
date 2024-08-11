@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 700px;
+    background-color: #F8EBC9;
+}
+
+.containt{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.justices-menu a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: #0E1412;
+    font-family: manrope;
+    text-transform: uppercase;
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 550px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.header-left {
+    width: 50%;
+    height: 75%;
+    background-color: transparent;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.header-left p{
+    font-family: manrope;
+    font-size: 16px;
+    color: #0E1412;
+}
+
+.header-left h1 {
+    font-family: roboto slab;
+    font-size: 50px;
+    color: #0E1412;
+}
+.header-left a {
+    margin-top: 150px;
+    text-decoration: none;
+    padding: 8px 8px;
+    background-color: orangered;
+    color: white;
+}
+
+.header-right{
+    width: 50%;
+    height: 75%;
+    background-color: transparent;
+}
+.header-right-content{
+    width: 460px;
+    height: 100%;
+    background-image: url(Justics-Header.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#play-button{
+    position: absolute;
+    top: 0;
+    translate: -50% -50%;
+}
+#mask-ground {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 40%;
+    translate: 50% -20%;
+}
+
+section{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-us{
+    height: 80%;
+    width: 80%;
+}
+.about-us-content{
+    height: 100%;
+    width: 100%;
+    gap: 100px;
+    display: flex;
+}
+
+.about-us-content-left{
+    height: 100%;
+    width: 50%;
+
+    background-image:url(rectangle.png.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#rectangle{
+    position: absolute;
+}
+#maskk{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    translate: 70% -90%;
+}
+
+.about-us-content-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.about-us-content-right h3{
+    color: brown;
+    font-size: 18px;
+}
+
+.about-us-content-right h1{
+    color: white;
+    font-size: 40px;
+}
+.about-us-content-right p{
+    color: rgb(197,188,188);
+    font-size: 20px;
+    line-height: 2;
+}
+
+.count-down{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us-content-right a{
+    height:20px ;
+    width: 60px;
+text-decoration: none;
+background-color: rgb( 236, 125, 84);
+color: white;
+padding: 15px;
+    
+}
+
+#practice{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+}
+.practice{
+   justify-content: center;
+}
+.practice h3{
+    color: gray;
+   
+}
+
